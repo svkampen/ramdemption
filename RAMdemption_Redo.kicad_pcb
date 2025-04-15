@@ -7644,7 +7644,7 @@
 	(footprint "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm"
 		(layer "B.Cu")
 		(uuid "3ce2abfb-1e11-4b35-be58-564ad7a2b18e")
-		(at 154.663 87.002 -90)
+		(at 196.827 119.006 -90)
 		(descr "32-lead plastic TSOP; Type II")
 		(tags "TSOP-II 32")
 		(property "Reference" "U10"
@@ -8864,11 +8864,11 @@
 	(footprint "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm"
 		(layer "B.Cu")
 		(uuid "4dbb1b45-4fe4-4702-8911-b0d72e4868b6")
-		(at 140.312 115.311)
+		(at 196.827 88.768 -90)
 		(descr "32-lead plastic TSOP; Type II")
 		(tags "TSOP-II 32")
 		(property "Reference" "U18"
-			(at -0.52 0 180)
+			(at -0.52 0 90)
 			(layer "B.SilkS")
 			(uuid "06fdb80e-363f-44de-9359-837313ace6ba")
 			(effects
@@ -8880,7 +8880,7 @@
 			)
 		)
 		(property "Value" "TC518512FTL-70"
-			(at -3.06 0 90)
+			(at -3.06 0 0)
 			(layer "B.Fab")
 			(uuid "a31e73b4-4dd8-4179-b6a3-00aa50f3e8fb")
 			(effects
@@ -8892,7 +8892,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet4u.com/pdf-down/T/C/5/TC518512PL-70-Toshiba.pdf"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -8906,7 +8906,7 @@
 			)
 		)
 		(property "Description" "512K x 8 Pseudo-SRAM, 70 ns, TSOP-II-32"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -8925,14 +8925,14 @@
 		(sheetfile "ram_bank.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -6.6 -10.4)
-			(end 6.6 -10.4)
+			(start -4.6 10.4)
+			(end 6.6 10.4)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "b78dd550-32bc-469a-a3e3-c34137537e98")
+			(uuid "fba34652-aa62-4695-9cd4-a7231175b2f1")
 		)
 		(fp_line
 			(start -4.6 10.4)
@@ -8945,14 +8945,14 @@
 			(uuid "b292f522-5a65-47d3-926b-f17c240b13ee")
 		)
 		(fp_line
-			(start -4.6 10.4)
-			(end 6.6 10.4)
+			(start -6.6 -10.4)
+			(end 6.6 -10.4)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "fba34652-aa62-4695-9cd4-a7231175b2f1")
+			(uuid "b78dd550-32bc-469a-a3e3-c34137537e98")
 		)
 		(fp_poly
 			(pts
@@ -8967,14 +8967,14 @@
 			(uuid "448184a5-9d4e-43e4-b56e-aa3b7b8c3ec3")
 		)
 		(fp_line
-			(start -6.7 -10.5)
-			(end 6.7 -10.5)
+			(start -6.7 10.5)
+			(end 6.7 10.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "b8c6b0e8-4bee-4e2b-bb0a-32dd41ea2d10")
+			(uuid "6b792b62-1b31-49bb-9d56-b3656ed432f0")
 		)
 		(fp_line
 			(start -6.7 10.5)
@@ -8987,16 +8987,6 @@
 			(uuid "214ee093-15df-4f71-a561-9e3e2b373a5a")
 		)
 		(fp_line
-			(start -6.7 10.5)
-			(end 6.7 10.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "6b792b62-1b31-49bb-9d56-b3656ed432f0")
-		)
-		(fp_line
 			(start 6.7 10.5)
 			(end 6.7 -10.5)
 			(stroke
@@ -9007,24 +8997,14 @@
 			(uuid "ef98bd24-912a-4c28-9ea0-d8bfabef12eb")
 		)
 		(fp_line
-			(start -5.05 -10.2)
-			(end -5.05 9.2)
+			(start -6.7 -10.5)
+			(end 6.7 -10.5)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "92400b68-3c22-459f-8f21-63ec64efe7ce")
-		)
-		(fp_line
-			(start -5.05 9.2)
-			(end -4.05 10.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "5292091e-ce91-4322-bad4-ac79fd6e1d00")
+			(layer "B.CrtYd")
+			(uuid "b8c6b0e8-4bee-4e2b-bb0a-32dd41ea2d10")
 		)
 		(fp_line
 			(start -4.05 10.2)
@@ -9037,16 +9017,6 @@
 			(uuid "6b69c15e-f32e-46b7-a2c2-8983ab8edb04")
 		)
 		(fp_line
-			(start 5.05 -10.2)
-			(end -5.05 -10.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "88c24520-2f31-4c82-900f-c16a62a8443d")
-		)
-		(fp_line
 			(start 5.05 10.2)
 			(end 5.05 -10.2)
 			(stroke
@@ -9056,8 +9026,38 @@
 			(layer "B.Fab")
 			(uuid "8b87ca30-2014-4bb8-9836-f8088797d162")
 		)
+		(fp_line
+			(start -5.05 9.2)
+			(end -4.05 10.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "5292091e-ce91-4322-bad4-ac79fd6e1d00")
+		)
+		(fp_line
+			(start -5.05 -10.2)
+			(end -5.05 9.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "92400b68-3c22-459f-8f21-63ec64efe7ce")
+		)
+		(fp_line
+			(start 5.05 -10.2)
+			(end -5.05 -10.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "88c24520-2f31-4c82-900f-c16a62a8443d")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "a937d70a-36f9-424f-ab54-ab189c50cf4c")
 			(effects
@@ -9069,7 +9069,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -5.6 9.525)
+			(at -5.6 9.525 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 61 "/RAM Bank 1/A18")
@@ -9078,7 +9078,7 @@
 			(uuid "95dcac63-9b1b-49d9-9ea1-2a6d5563c5eb")
 		)
 		(pad "2" smd rect
-			(at -5.6 8.255)
+			(at -5.6 8.255 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 36 "/RAM Bank 1/A16")
@@ -9087,7 +9087,7 @@
 			(uuid "39c45b51-2a8c-42f8-853d-e94033d6da5d")
 		)
 		(pad "3" smd rect
-			(at -5.6 6.985)
+			(at -5.6 6.985 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 3 "/RAM Bank 1/A14")
@@ -9096,7 +9096,7 @@
 			(uuid "2358c5d7-f811-4764-a520-f7bb00a8ef1a")
 		)
 		(pad "4" smd rect
-			(at -5.6 5.715)
+			(at -5.6 5.715 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 4 "/RAM Bank 1/A12")
@@ -9105,7 +9105,7 @@
 			(uuid "708c220c-1392-48ad-9063-951a99338f06")
 		)
 		(pad "5" smd rect
-			(at -5.6 4.445)
+			(at -5.6 4.445 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 21 "/RAM Bank 1/A7")
@@ -9114,7 +9114,7 @@
 			(uuid "20685edb-69b9-4e48-8646-3ac7b7a63651")
 		)
 		(pad "6" smd rect
-			(at -5.6 3.175)
+			(at -5.6 3.175 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 65 "/RAM Bank 1/A6")
@@ -9123,7 +9123,7 @@
 			(uuid "b84c3d2c-d9b1-4d65-b6d9-c470de7cfdc9")
 		)
 		(pad "7" smd rect
-			(at -5.6 1.905)
+			(at -5.6 1.905 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 51 "/RAM Bank 1/A5")
@@ -9132,7 +9132,7 @@
 			(uuid "c8b7b964-d11f-4d3a-bd35-39b399296516")
 		)
 		(pad "8" smd rect
-			(at -5.6 0.625)
+			(at -5.6 0.625 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 37 "/RAM Bank 1/A4")
@@ -9141,7 +9141,7 @@
 			(uuid "23477bec-1e4c-4246-b769-6b72270bb6af")
 		)
 		(pad "9" smd rect
-			(at -5.6 -0.625)
+			(at -5.6 -0.625 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 42 "/RAM Bank 1/A3")
@@ -9150,7 +9150,7 @@
 			(uuid "969a27fd-1cc9-48dc-a09d-641da5d16406")
 		)
 		(pad "10" smd rect
-			(at -5.6 -1.905)
+			(at -5.6 -1.905 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 57 "/RAM Bank 1/A2")
@@ -9159,7 +9159,7 @@
 			(uuid "09b3cd70-9fc4-4a55-9498-2c5858284342")
 		)
 		(pad "11" smd rect
-			(at -5.6 -3.175)
+			(at -5.6 -3.175 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 54 "/RAM Bank 1/A1")
@@ -9168,7 +9168,7 @@
 			(uuid "018b4580-0591-4421-947d-258f2cecf356")
 		)
 		(pad "12" smd rect
-			(at -5.6 -4.445)
+			(at -5.6 -4.445 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 52 "/RAM Bank 1/A0")
@@ -9177,7 +9177,7 @@
 			(uuid "690dc511-fa13-4382-8014-7a292ac38a0d")
 		)
 		(pad "13" smd rect
-			(at -5.6 -5.715)
+			(at -5.6 -5.715 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 49 "/RAM Bank 1/D8")
@@ -9186,7 +9186,7 @@
 			(uuid "9f02abc1-afce-4866-afe4-aabf1a816dc1")
 		)
 		(pad "14" smd rect
-			(at -5.6 -6.985)
+			(at -5.6 -6.985 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 14 "/RAM Bank 1/D9")
@@ -9195,7 +9195,7 @@
 			(uuid "228340fb-bc74-4c17-8d6e-4f411eb1e3b2")
 		)
 		(pad "15" smd rect
-			(at -5.6 -8.255)
+			(at -5.6 -8.255 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 33 "/RAM Bank 1/D10")
@@ -9204,7 +9204,7 @@
 			(uuid "5fa8b364-1067-418d-88d4-6f36228269ba")
 		)
 		(pad "16" smd rect
-			(at -5.6 -9.525)
+			(at -5.6 -9.525 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 1 "GND")
@@ -9213,7 +9213,7 @@
 			(uuid "f12ced7f-a3cf-4026-b62c-d275cdba9768")
 		)
 		(pad "17" smd rect
-			(at 5.6 -9.525)
+			(at 5.6 -9.525 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 23 "/RAM Bank 1/D11")
@@ -9222,7 +9222,7 @@
 			(uuid "bfdab832-783b-48f9-a7bf-714342e9fbec")
 		)
 		(pad "18" smd rect
-			(at 5.6 -8.255)
+			(at 5.6 -8.255 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 32 "/RAM Bank 1/D12")
@@ -9231,7 +9231,7 @@
 			(uuid "8e187fe4-0ebb-48f8-9b14-494c15179a3c")
 		)
 		(pad "19" smd rect
-			(at 5.6 -6.985)
+			(at 5.6 -6.985 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 47 "/RAM Bank 1/D13")
@@ -9240,7 +9240,7 @@
 			(uuid "c6feebdb-4432-471c-b48f-2661fa9c3288")
 		)
 		(pad "20" smd rect
-			(at 5.6 -5.715)
+			(at 5.6 -5.715 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 41 "/RAM Bank 1/D14")
@@ -9249,7 +9249,7 @@
 			(uuid "052af7bd-9182-451a-bbba-69f8520deece")
 		)
 		(pad "21" smd rect
-			(at 5.6 -4.445)
+			(at 5.6 -4.445 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 13 "/RAM Bank 1/D15")
@@ -9258,7 +9258,7 @@
 			(uuid "54cc7d9b-5482-483a-9b20-6e7d9e0ddf67")
 		)
 		(pad "22" smd rect
-			(at 5.6 -3.175)
+			(at 5.6 -3.175 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 66 "~{CS6}")
@@ -9267,7 +9267,7 @@
 			(uuid "8733c638-077a-4551-a962-9da5d5df3044")
 		)
 		(pad "23" smd rect
-			(at 5.6 -1.905)
+			(at 5.6 -1.905 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 38 "/RAM Bank 1/A10")
@@ -9276,7 +9276,7 @@
 			(uuid "5e79c9c9-3b89-458c-8cf6-dcedaa3c8e19")
 		)
 		(pad "24" smd rect
-			(at 5.6 -0.625)
+			(at 5.6 -0.625 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 25 "~{OE}")
@@ -9285,7 +9285,7 @@
 			(uuid "3f25ea62-bcbd-4cc7-a7f7-786054382c87")
 		)
 		(pad "25" smd rect
-			(at 5.6 0.625)
+			(at 5.6 0.625 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 58 "/RAM Bank 1/A11")
@@ -9294,7 +9294,7 @@
 			(uuid "cf72aa6b-6f99-49a2-b29d-353d46318e12")
 		)
 		(pad "26" smd rect
-			(at 5.6 1.905)
+			(at 5.6 1.905 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 24 "/RAM Bank 1/A9")
@@ -9303,7 +9303,7 @@
 			(uuid "d926683e-8dfe-46a1-806f-d17eaaefb786")
 		)
 		(pad "27" smd rect
-			(at 5.6 3.175)
+			(at 5.6 3.175 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 62 "/RAM Bank 1/A8")
@@ -9312,7 +9312,7 @@
 			(uuid "7694a766-c67b-40b7-ac9b-3089570443ce")
 		)
 		(pad "28" smd rect
-			(at 5.6 4.445)
+			(at 5.6 4.445 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 11 "/RAM Bank 1/A13")
@@ -9321,7 +9321,7 @@
 			(uuid "7c46b7c3-7d82-443d-84f7-d308ce754c41")
 		)
 		(pad "29" smd rect
-			(at 5.6 5.715)
+			(at 5.6 5.715 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 26 "/~{WE1}")
@@ -9330,7 +9330,7 @@
 			(uuid "7a7a7359-1dc1-4008-ae52-557444bdb9d9")
 		)
 		(pad "30" smd rect
-			(at 5.6 6.985)
+			(at 5.6 6.985 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 44 "/RAM Bank 1/A17")
@@ -9339,7 +9339,7 @@
 			(uuid "7d613c58-6a14-4762-8bb3-1bf3eee8359f")
 		)
 		(pad "31" smd rect
-			(at 5.6 8.255)
+			(at 5.6 8.255 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 15 "/RAM Bank 1/A15")
@@ -9348,7 +9348,7 @@
 			(uuid "6af554ce-b9fc-4361-aa47-97b6ee3e0716")
 		)
 		(pad "32" smd rect
-			(at 5.6 9.525)
+			(at 5.6 9.525 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 2 "+5V")
@@ -10796,11 +10796,11 @@
 	(footprint "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm"
 		(layer "B.Cu")
 		(uuid "6f6b92ce-e3c6-4200-96aa-9603f8b0907c")
-		(at 196.827 118.994 -90)
+		(at 154.536 115.311)
 		(descr "32-lead plastic TSOP; Type II")
 		(tags "TSOP-II 32")
 		(property "Reference" "U12"
-			(at -0.012 0 90)
+			(at -0.012 0 0)
 			(layer "B.SilkS")
 			(uuid "fe8cb97c-9f53-4619-9a67-a44d57fb26ca")
 			(effects
@@ -10812,7 +10812,7 @@
 			)
 		)
 		(property "Value" "TC518512FTL-70"
-			(at 2.54 0 0)
+			(at 2.54 0 90)
 			(layer "B.Fab")
 			(uuid "8226a12f-37ef-432b-883c-0b7b0504bf15")
 			(effects
@@ -10824,7 +10824,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet4u.com/pdf-down/T/C/5/TC518512PL-70-Toshiba.pdf"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -10838,7 +10838,7 @@
 			)
 		)
 		(property "Description" "512K x 8 Pseudo-SRAM, 70 ns, TSOP-II-32"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -10857,14 +10857,14 @@
 		(sheetfile "ram_bank.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -4.6 10.4)
-			(end 6.6 10.4)
+			(start -6.6 -10.4)
+			(end 6.6 -10.4)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "be7b56e7-1b5e-469f-b597-5be8221b0b6f")
+			(uuid "0971078a-c9e3-424e-86fb-7f9ce3ac2f50")
 		)
 		(fp_line
 			(start -4.6 10.4)
@@ -10877,14 +10877,14 @@
 			(uuid "07c66259-2ef7-4297-85ca-2ae46e776c94")
 		)
 		(fp_line
-			(start -6.6 -10.4)
-			(end 6.6 -10.4)
+			(start -4.6 10.4)
+			(end 6.6 10.4)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "0971078a-c9e3-424e-86fb-7f9ce3ac2f50")
+			(uuid "be7b56e7-1b5e-469f-b597-5be8221b0b6f")
 		)
 		(fp_poly
 			(pts
@@ -10899,14 +10899,14 @@
 			(uuid "db8e39e4-8d85-43b4-bccc-067e4e639523")
 		)
 		(fp_line
-			(start -6.7 10.5)
-			(end 6.7 10.5)
+			(start -6.7 -10.5)
+			(end 6.7 -10.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "cb3084e3-85c5-45cd-b01b-9aa74cd3bbd7")
+			(uuid "6583c48f-d26d-4ede-966b-3b3615c90266")
 		)
 		(fp_line
 			(start -6.7 10.5)
@@ -10919,6 +10919,16 @@
 			(uuid "313f7d5d-9de6-406d-ada5-03187e28841f")
 		)
 		(fp_line
+			(start -6.7 10.5)
+			(end 6.7 10.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "cb3084e3-85c5-45cd-b01b-9aa74cd3bbd7")
+		)
+		(fp_line
 			(start 6.7 10.5)
 			(end 6.7 -10.5)
 			(stroke
@@ -10927,46 +10937,6 @@
 			)
 			(layer "B.CrtYd")
 			(uuid "d4413261-5546-4a0a-a225-deef2aba0f56")
-		)
-		(fp_line
-			(start -6.7 -10.5)
-			(end 6.7 -10.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "6583c48f-d26d-4ede-966b-3b3615c90266")
-		)
-		(fp_line
-			(start -4.05 10.2)
-			(end 5.05 10.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "886e9a67-a5ef-4581-8331-b242ca2dda48")
-		)
-		(fp_line
-			(start 5.05 10.2)
-			(end 5.05 -10.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "62511d48-0791-4bc0-bfb4-11f000f46298")
-		)
-		(fp_line
-			(start -5.05 9.2)
-			(end -4.05 10.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "bf69b97c-1c92-4b18-8c7b-888b49e2e244")
 		)
 		(fp_line
 			(start -5.05 -10.2)
@@ -10979,6 +10949,26 @@
 			(uuid "524c7b62-e207-4384-82c5-8cc88b18c1ca")
 		)
 		(fp_line
+			(start -5.05 9.2)
+			(end -4.05 10.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "bf69b97c-1c92-4b18-8c7b-888b49e2e244")
+		)
+		(fp_line
+			(start -4.05 10.2)
+			(end 5.05 10.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "886e9a67-a5ef-4581-8331-b242ca2dda48")
+		)
+		(fp_line
 			(start 5.05 -10.2)
 			(end -5.05 -10.2)
 			(stroke
@@ -10988,8 +10978,18 @@
 			(layer "B.Fab")
 			(uuid "4e750008-af34-4123-b77e-bf503dbec932")
 		)
+		(fp_line
+			(start 5.05 10.2)
+			(end 5.05 -10.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "62511d48-0791-4bc0-bfb4-11f000f46298")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "049538a4-186a-4257-b53b-2b0135e98b0c")
 			(effects
@@ -11001,7 +11001,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -5.6 9.525 270)
+			(at -5.6 9.525)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 61 "/RAM Bank 1/A18")
@@ -11010,7 +11010,7 @@
 			(uuid "edc48e00-02ae-447c-b4b6-9867d7bb2e44")
 		)
 		(pad "2" smd rect
-			(at -5.6 8.255 270)
+			(at -5.6 8.255)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 36 "/RAM Bank 1/A16")
@@ -11019,7 +11019,7 @@
 			(uuid "9193ef7a-b6f5-4894-a1c2-cdd8276a8a78")
 		)
 		(pad "3" smd rect
-			(at -5.6 6.985 270)
+			(at -5.6 6.985)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 3 "/RAM Bank 1/A14")
@@ -11028,7 +11028,7 @@
 			(uuid "e21b22be-7c1a-4d6e-a1f9-abb20e412355")
 		)
 		(pad "4" smd rect
-			(at -5.6 5.715 270)
+			(at -5.6 5.715)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 4 "/RAM Bank 1/A12")
@@ -11037,7 +11037,7 @@
 			(uuid "77b60c99-6e14-4a85-a5e3-08630892f7bf")
 		)
 		(pad "5" smd rect
-			(at -5.6 4.445 270)
+			(at -5.6 4.445)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 21 "/RAM Bank 1/A7")
@@ -11046,7 +11046,7 @@
 			(uuid "291e23b0-c68d-4f43-afa8-ed0ff9c14901")
 		)
 		(pad "6" smd rect
-			(at -5.6 3.175 270)
+			(at -5.6 3.175)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 65 "/RAM Bank 1/A6")
@@ -11055,7 +11055,7 @@
 			(uuid "43cc0d3b-fd0b-44cb-91d5-5fd62021c5e7")
 		)
 		(pad "7" smd rect
-			(at -5.6 1.905 270)
+			(at -5.6 1.905)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 51 "/RAM Bank 1/A5")
@@ -11064,7 +11064,7 @@
 			(uuid "f12934d5-9ae2-47e5-af4c-5b6919c30843")
 		)
 		(pad "8" smd rect
-			(at -5.6 0.625 270)
+			(at -5.6 0.625)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 37 "/RAM Bank 1/A4")
@@ -11073,7 +11073,7 @@
 			(uuid "1783a204-048a-4a6f-a418-723ea658ea40")
 		)
 		(pad "9" smd rect
-			(at -5.6 -0.625 270)
+			(at -5.6 -0.625)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 42 "/RAM Bank 1/A3")
@@ -11082,7 +11082,7 @@
 			(uuid "cfd8cb5f-cf77-4bdb-aca0-913e8eb08ecf")
 		)
 		(pad "10" smd rect
-			(at -5.6 -1.905 270)
+			(at -5.6 -1.905)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 57 "/RAM Bank 1/A2")
@@ -11091,7 +11091,7 @@
 			(uuid "7e82cb9b-1fb0-437c-8982-bffab5ad5b00")
 		)
 		(pad "11" smd rect
-			(at -5.6 -3.175 270)
+			(at -5.6 -3.175)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 54 "/RAM Bank 1/A1")
@@ -11100,7 +11100,7 @@
 			(uuid "59aaf157-6cc8-43e2-9a74-52f86d51b7e0")
 		)
 		(pad "12" smd rect
-			(at -5.6 -4.445 270)
+			(at -5.6 -4.445)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 52 "/RAM Bank 1/A0")
@@ -11109,7 +11109,7 @@
 			(uuid "ecbb0e69-fac5-464a-891a-9f65a4c9ff1f")
 		)
 		(pad "13" smd rect
-			(at -5.6 -5.715 270)
+			(at -5.6 -5.715)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 9 "/RAM Bank 1/D24")
@@ -11118,7 +11118,7 @@
 			(uuid "1b7dd215-a75f-40a5-ba4b-6075db8b5e9a")
 		)
 		(pad "14" smd rect
-			(at -5.6 -6.985 270)
+			(at -5.6 -6.985)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 48 "/RAM Bank 1/D25")
@@ -11127,7 +11127,7 @@
 			(uuid "ad623387-048f-4236-8d41-89abd98e33f2")
 		)
 		(pad "15" smd rect
-			(at -5.6 -8.255 270)
+			(at -5.6 -8.255)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 30 "/RAM Bank 1/D26")
@@ -11136,7 +11136,7 @@
 			(uuid "94130ad3-ce6b-447c-bfc3-03a8db5b16ff")
 		)
 		(pad "16" smd rect
-			(at -5.6 -9.525 270)
+			(at -5.6 -9.525)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 1 "GND")
@@ -11145,7 +11145,7 @@
 			(uuid "7a6d4a2a-bd01-4ae1-813e-00378cc66f38")
 		)
 		(pad "17" smd rect
-			(at 5.6 -9.525 270)
+			(at 5.6 -9.525)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 19 "/RAM Bank 1/D27")
@@ -11154,7 +11154,7 @@
 			(uuid "ea0a03a3-9a82-4308-8757-37e46713c982")
 		)
 		(pad "18" smd rect
-			(at 5.6 -8.255 270)
+			(at 5.6 -8.255)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 18 "/RAM Bank 1/D28")
@@ -11163,7 +11163,7 @@
 			(uuid "2bccc0e0-8f49-4a1b-bed9-c0eb2dba9161")
 		)
 		(pad "19" smd rect
-			(at 5.6 -6.985 270)
+			(at 5.6 -6.985)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 35 "/RAM Bank 1/D29")
@@ -11172,7 +11172,7 @@
 			(uuid "e3a878ed-8342-4aa3-8d8d-10f9fbd41ac4")
 		)
 		(pad "20" smd rect
-			(at 5.6 -5.715 270)
+			(at 5.6 -5.715)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 31 "/RAM Bank 1/D30")
@@ -11181,7 +11181,7 @@
 			(uuid "feb230cf-3e27-4ef3-88f3-bbc2205f2baf")
 		)
 		(pad "21" smd rect
-			(at 5.6 -4.445 270)
+			(at 5.6 -4.445)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 27 "/RAM Bank 1/D31")
@@ -11190,7 +11190,7 @@
 			(uuid "1778d018-ae60-4f16-97a6-332d806d3df2")
 		)
 		(pad "22" smd rect
-			(at 5.6 -3.175 270)
+			(at 5.6 -3.175)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 60 "~{CS4}")
@@ -11199,7 +11199,7 @@
 			(uuid "b3010b7b-0c5e-421f-974f-13b130d310b1")
 		)
 		(pad "23" smd rect
-			(at 5.6 -1.905 270)
+			(at 5.6 -1.905)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 38 "/RAM Bank 1/A10")
@@ -11208,7 +11208,7 @@
 			(uuid "6fbb98fc-b099-49f1-bd16-9896f24ef0b6")
 		)
 		(pad "24" smd rect
-			(at 5.6 -0.625 270)
+			(at 5.6 -0.625)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 25 "~{OE}")
@@ -11217,7 +11217,7 @@
 			(uuid "1fdf5323-59a4-49b5-a6b0-6997d99ff96a")
 		)
 		(pad "25" smd rect
-			(at 5.6 0.625 270)
+			(at 5.6 0.625)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 58 "/RAM Bank 1/A11")
@@ -11226,7 +11226,7 @@
 			(uuid "9c594a4f-6850-4923-9ecd-2541caffa229")
 		)
 		(pad "26" smd rect
-			(at 5.6 1.905 270)
+			(at 5.6 1.905)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 24 "/RAM Bank 1/A9")
@@ -11235,7 +11235,7 @@
 			(uuid "b0a25434-7741-4230-b1b9-a5d9140aa787")
 		)
 		(pad "27" smd rect
-			(at 5.6 3.175 270)
+			(at 5.6 3.175)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 62 "/RAM Bank 1/A8")
@@ -11244,7 +11244,7 @@
 			(uuid "a4ec663f-e1d8-49a1-8ae6-059c54ca9964")
 		)
 		(pad "28" smd rect
-			(at 5.6 4.445 270)
+			(at 5.6 4.445)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 11 "/RAM Bank 1/A13")
@@ -11253,7 +11253,7 @@
 			(uuid "851583fa-e678-4af5-b85a-33ad9dc3be21")
 		)
 		(pad "29" smd rect
-			(at 5.6 5.715 270)
+			(at 5.6 5.715)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 22 "/~{WE3}")
@@ -11262,7 +11262,7 @@
 			(uuid "848de457-3f98-4967-8f85-52b0c4bba06c")
 		)
 		(pad "30" smd rect
-			(at 5.6 6.985 270)
+			(at 5.6 6.985)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 44 "/RAM Bank 1/A17")
@@ -11271,7 +11271,7 @@
 			(uuid "4b2cd023-f0e2-4746-a26a-685b26885859")
 		)
 		(pad "31" smd rect
-			(at 5.6 8.255 270)
+			(at 5.6 8.255)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 15 "/RAM Bank 1/A15")
@@ -11280,7 +11280,7 @@
 			(uuid "37b2758d-e9e8-43a0-8dbf-676664ff1d17")
 		)
 		(pad "32" smd rect
-			(at 5.6 9.525 270)
+			(at 5.6 9.525)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 2 "+5V")
@@ -12424,11 +12424,11 @@
 	(footprint "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm"
 		(layer "B.Cu")
 		(uuid "c296511c-8a4d-407f-8eb3-54ee387ca6d5")
-		(at 154.536 115.311)
+		(at 196.827 103.754 -90)
 		(descr "32-lead plastic TSOP; Type II")
 		(tags "TSOP-II 32")
 		(property "Reference" "U14"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "B.SilkS")
 			(uuid "73b60499-160a-4f92-bfac-3f7ab5433d5f")
 			(effects
@@ -12440,7 +12440,7 @@
 			)
 		)
 		(property "Value" "TC518512FTL-70"
-			(at -2.54 0 90)
+			(at -2.54 0 0)
 			(layer "B.Fab")
 			(uuid "c9550e72-e752-4a1d-b8d0-917af208ec2e")
 			(effects
@@ -12452,7 +12452,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet4u.com/pdf-down/T/C/5/TC518512PL-70-Toshiba.pdf"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -12466,7 +12466,7 @@
 			)
 		)
 		(property "Description" "512K x 8 Pseudo-SRAM, 70 ns, TSOP-II-32"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -12485,14 +12485,14 @@
 		(sheetfile "ram_bank.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -6.6 -10.4)
-			(end 6.6 -10.4)
+			(start -4.6 10.4)
+			(end 6.6 10.4)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ea199b5e-6f1c-4b9c-9395-137be9f02b0a")
+			(uuid "f2bfcd3f-36a1-4231-928c-af3d45e6335a")
 		)
 		(fp_line
 			(start -4.6 10.4)
@@ -12505,14 +12505,14 @@
 			(uuid "16002de0-5224-44ae-8e2d-ced279d32ac5")
 		)
 		(fp_line
-			(start -4.6 10.4)
-			(end 6.6 10.4)
+			(start -6.6 -10.4)
+			(end 6.6 -10.4)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f2bfcd3f-36a1-4231-928c-af3d45e6335a")
+			(uuid "ea199b5e-6f1c-4b9c-9395-137be9f02b0a")
 		)
 		(fp_poly
 			(pts
@@ -12527,14 +12527,14 @@
 			(uuid "68a79b27-e811-46bd-95a8-2288663c1a0d")
 		)
 		(fp_line
-			(start -6.7 -10.5)
-			(end 6.7 -10.5)
+			(start -6.7 10.5)
+			(end 6.7 10.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "8b965ff6-b2c5-44a2-a620-6b563cbcc647")
+			(uuid "19181ea4-62f0-4f59-a2bb-f3249eebca22")
 		)
 		(fp_line
 			(start -6.7 10.5)
@@ -12547,16 +12547,6 @@
 			(uuid "8f01e178-cf24-486e-90bd-50d93fa5ca1a")
 		)
 		(fp_line
-			(start -6.7 10.5)
-			(end 6.7 10.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "19181ea4-62f0-4f59-a2bb-f3249eebca22")
-		)
-		(fp_line
 			(start 6.7 10.5)
 			(end 6.7 -10.5)
 			(stroke
@@ -12567,24 +12557,14 @@
 			(uuid "ff9766f7-e5e0-4ef6-9b1e-54bbea6423c7")
 		)
 		(fp_line
-			(start -5.05 -10.2)
-			(end -5.05 9.2)
+			(start -6.7 -10.5)
+			(end 6.7 -10.5)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "a3534bba-c920-4510-9a3f-92847a38d0dc")
-		)
-		(fp_line
-			(start -5.05 9.2)
-			(end -4.05 10.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "c23cfca3-afc0-4f7a-8377-0bc21794ebdd")
+			(layer "B.CrtYd")
+			(uuid "8b965ff6-b2c5-44a2-a620-6b563cbcc647")
 		)
 		(fp_line
 			(start -4.05 10.2)
@@ -12597,16 +12577,6 @@
 			(uuid "02aa56f0-71d2-448e-b0e4-d1fb465d9d54")
 		)
 		(fp_line
-			(start 5.05 -10.2)
-			(end -5.05 -10.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "1643fa6a-3c67-4bbb-b2b0-b61edc72ca03")
-		)
-		(fp_line
 			(start 5.05 10.2)
 			(end 5.05 -10.2)
 			(stroke
@@ -12616,8 +12586,38 @@
 			(layer "B.Fab")
 			(uuid "9fb6aa4f-23de-41bd-8857-8cb11995c16b")
 		)
+		(fp_line
+			(start -5.05 9.2)
+			(end -4.05 10.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "c23cfca3-afc0-4f7a-8377-0bc21794ebdd")
+		)
+		(fp_line
+			(start -5.05 -10.2)
+			(end -5.05 9.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "a3534bba-c920-4510-9a3f-92847a38d0dc")
+		)
+		(fp_line
+			(start 5.05 -10.2)
+			(end -5.05 -10.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "1643fa6a-3c67-4bbb-b2b0-b61edc72ca03")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "a5752d9e-b3dc-46b2-8d20-0318f6f8d7fa")
 			(effects
@@ -12629,7 +12629,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -5.6 9.525)
+			(at -5.6 9.525 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 61 "/RAM Bank 1/A18")
@@ -12638,7 +12638,7 @@
 			(uuid "a2705a3e-d17d-4d37-b737-8b6d4df7bea7")
 		)
 		(pad "2" smd rect
-			(at -5.6 8.255)
+			(at -5.6 8.255 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 36 "/RAM Bank 1/A16")
@@ -12647,7 +12647,7 @@
 			(uuid "8518dee0-2f11-4a7c-bdf6-afdba27f5286")
 		)
 		(pad "3" smd rect
-			(at -5.6 6.985)
+			(at -5.6 6.985 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 3 "/RAM Bank 1/A14")
@@ -12656,7 +12656,7 @@
 			(uuid "9b8fb9d3-2f64-4dac-88dd-5d714f18a836")
 		)
 		(pad "4" smd rect
-			(at -5.6 5.715)
+			(at -5.6 5.715 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 4 "/RAM Bank 1/A12")
@@ -12665,7 +12665,7 @@
 			(uuid "b08e1850-01bf-49b5-bac3-db0ce4543324")
 		)
 		(pad "5" smd rect
-			(at -5.6 4.445)
+			(at -5.6 4.445 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 21 "/RAM Bank 1/A7")
@@ -12674,7 +12674,7 @@
 			(uuid "46688b1d-9591-4874-a6f5-c9f7ba8d647c")
 		)
 		(pad "6" smd rect
-			(at -5.6 3.175)
+			(at -5.6 3.175 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 65 "/RAM Bank 1/A6")
@@ -12683,7 +12683,7 @@
 			(uuid "8ea40f1a-8cad-4e04-bb65-d13cc48937a8")
 		)
 		(pad "7" smd rect
-			(at -5.6 1.905)
+			(at -5.6 1.905 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 51 "/RAM Bank 1/A5")
@@ -12692,7 +12692,7 @@
 			(uuid "dbf0c3be-b228-4c59-9ace-1f7b9b5d2579")
 		)
 		(pad "8" smd rect
-			(at -5.6 0.625)
+			(at -5.6 0.625 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 37 "/RAM Bank 1/A4")
@@ -12701,7 +12701,7 @@
 			(uuid "34c3bab9-20af-477f-b020-b1eea6f808dc")
 		)
 		(pad "9" smd rect
-			(at -5.6 -0.625)
+			(at -5.6 -0.625 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 42 "/RAM Bank 1/A3")
@@ -12710,7 +12710,7 @@
 			(uuid "a9849302-36a5-4eb8-bfd3-79dbd3be9e08")
 		)
 		(pad "10" smd rect
-			(at -5.6 -1.905)
+			(at -5.6 -1.905 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 57 "/RAM Bank 1/A2")
@@ -12719,7 +12719,7 @@
 			(uuid "8ad69a4d-555e-4057-bd9d-9f1dfb7c94e4")
 		)
 		(pad "11" smd rect
-			(at -5.6 -3.175)
+			(at -5.6 -3.175 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 54 "/RAM Bank 1/A1")
@@ -12728,7 +12728,7 @@
 			(uuid "52d7fbac-7e4e-45a8-ae78-531faa5e1b97")
 		)
 		(pad "12" smd rect
-			(at -5.6 -4.445)
+			(at -5.6 -4.445 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 52 "/RAM Bank 1/A0")
@@ -12737,7 +12737,7 @@
 			(uuid "b57006a4-4d7b-4879-8044-cc08ecf5b33f")
 		)
 		(pad "13" smd rect
-			(at -5.6 -5.715)
+			(at -5.6 -5.715 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 49 "/RAM Bank 1/D8")
@@ -12746,7 +12746,7 @@
 			(uuid "1f6ce2a0-2565-4e54-b509-2830fcc3f7b0")
 		)
 		(pad "14" smd rect
-			(at -5.6 -6.985)
+			(at -5.6 -6.985 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 14 "/RAM Bank 1/D9")
@@ -12755,7 +12755,7 @@
 			(uuid "eea60750-13b4-4de2-8556-e21a5db7d814")
 		)
 		(pad "15" smd rect
-			(at -5.6 -8.255)
+			(at -5.6 -8.255 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 33 "/RAM Bank 1/D10")
@@ -12764,7 +12764,7 @@
 			(uuid "2d822012-49ce-4f1a-ae31-7096246bdbfe")
 		)
 		(pad "16" smd rect
-			(at -5.6 -9.525)
+			(at -5.6 -9.525 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 1 "GND")
@@ -12773,7 +12773,7 @@
 			(uuid "f1dbe8f8-9abe-4169-b0bb-a14d44f9b6f6")
 		)
 		(pad "17" smd rect
-			(at 5.6 -9.525)
+			(at 5.6 -9.525 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 23 "/RAM Bank 1/D11")
@@ -12782,7 +12782,7 @@
 			(uuid "1b3203e6-e1f7-4087-9d6b-b744b0666ad2")
 		)
 		(pad "18" smd rect
-			(at 5.6 -8.255)
+			(at 5.6 -8.255 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 32 "/RAM Bank 1/D12")
@@ -12791,7 +12791,7 @@
 			(uuid "ed43c26a-406d-448d-bff2-d2ba093ee011")
 		)
 		(pad "19" smd rect
-			(at 5.6 -6.985)
+			(at 5.6 -6.985 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 47 "/RAM Bank 1/D13")
@@ -12800,7 +12800,7 @@
 			(uuid "d5a540c7-4178-49ef-a2a9-88ec47ade042")
 		)
 		(pad "20" smd rect
-			(at 5.6 -5.715)
+			(at 5.6 -5.715 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 41 "/RAM Bank 1/D14")
@@ -12809,7 +12809,7 @@
 			(uuid "c141f423-7ba1-4ea7-a0b3-e35f7a51c26f")
 		)
 		(pad "21" smd rect
-			(at 5.6 -4.445)
+			(at 5.6 -4.445 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 13 "/RAM Bank 1/D15")
@@ -12818,7 +12818,7 @@
 			(uuid "78465ff6-d9fd-4ead-bdb1-49c164418d0b")
 		)
 		(pad "22" smd rect
-			(at 5.6 -3.175)
+			(at 5.6 -3.175 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 8 "~{CS5}")
@@ -12827,7 +12827,7 @@
 			(uuid "a243bd94-ceb2-42d9-a287-a0f01a570e1f")
 		)
 		(pad "23" smd rect
-			(at 5.6 -1.905)
+			(at 5.6 -1.905 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 38 "/RAM Bank 1/A10")
@@ -12836,7 +12836,7 @@
 			(uuid "4fc18a63-2888-4acd-813a-c948272bf4d4")
 		)
 		(pad "24" smd rect
-			(at 5.6 -0.625)
+			(at 5.6 -0.625 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 25 "~{OE}")
@@ -12845,7 +12845,7 @@
 			(uuid "042b2bd6-3a4b-47b4-87af-31f66aaa8f87")
 		)
 		(pad "25" smd rect
-			(at 5.6 0.625)
+			(at 5.6 0.625 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 58 "/RAM Bank 1/A11")
@@ -12854,7 +12854,7 @@
 			(uuid "7b30aaf1-fecc-40f6-8a4a-697eaf6fe507")
 		)
 		(pad "26" smd rect
-			(at 5.6 1.905)
+			(at 5.6 1.905 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 24 "/RAM Bank 1/A9")
@@ -12863,7 +12863,7 @@
 			(uuid "a59dcb9d-1aca-4cc9-bc09-4ac3faba01bf")
 		)
 		(pad "27" smd rect
-			(at 5.6 3.175)
+			(at 5.6 3.175 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 62 "/RAM Bank 1/A8")
@@ -12872,7 +12872,7 @@
 			(uuid "268aab43-306f-4465-9221-e66e6757d87b")
 		)
 		(pad "28" smd rect
-			(at 5.6 4.445)
+			(at 5.6 4.445 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 11 "/RAM Bank 1/A13")
@@ -12881,7 +12881,7 @@
 			(uuid "887127bc-c576-48cc-8ed5-720369c58e99")
 		)
 		(pad "29" smd rect
-			(at 5.6 5.715)
+			(at 5.6 5.715 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 26 "/~{WE1}")
@@ -12890,7 +12890,7 @@
 			(uuid "e7d15341-1bb0-45df-8632-10fc99068be8")
 		)
 		(pad "30" smd rect
-			(at 5.6 6.985)
+			(at 5.6 6.985 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 44 "/RAM Bank 1/A17")
@@ -12899,7 +12899,7 @@
 			(uuid "1fb1fe49-a264-4e2f-b357-d6ebc7f6f187")
 		)
 		(pad "31" smd rect
-			(at 5.6 8.255)
+			(at 5.6 8.255 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 15 "/RAM Bank 1/A15")
@@ -12908,7 +12908,7 @@
 			(uuid "e9b70814-72f4-405d-8c78-0141dab9f0ed")
 		)
 		(pad "32" smd rect
-			(at 5.6 9.525)
+			(at 5.6 9.525 270)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 2 "+5V")
@@ -12932,7 +12932,7 @@
 	(footprint "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm"
 		(layer "B.Cu")
 		(uuid "c8a9763f-2087-4d65-be57-6ea42f2fb5cc")
-		(at 196.827 88.768 -90)
+		(at 154.663 86.99 -90)
 		(descr "32-lead plastic TSOP; Type II")
 		(tags "TSOP-II 32")
 		(property "Reference" "U20"
@@ -13440,11 +13440,11 @@
 	(footprint "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm"
 		(layer "B.Cu")
 		(uuid "cd95b354-88b7-45a2-9fe7-7ee2933a4ed1")
-		(at 196.827 103.754 -90)
+		(at 140.312 115.311)
 		(descr "32-lead plastic TSOP; Type II")
 		(tags "TSOP-II 32")
 		(property "Reference" "U16"
-			(at -0.012 0 90)
+			(at -0.012 0 0)
 			(layer "B.SilkS")
 			(uuid "f44c0e29-17f3-4712-8d4f-5cd8e218c72e")
 			(effects
@@ -13456,7 +13456,7 @@
 			)
 		)
 		(property "Value" "TC518512FTL-70"
-			(at 2.54 0 0)
+			(at 2.54 0 90)
 			(layer "B.Fab")
 			(uuid "4f1a4eab-13e7-4cc5-a77b-67b5e4e742a3")
 			(effects
@@ -13468,7 +13468,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet4u.com/pdf-down/T/C/5/TC518512PL-70-Toshiba.pdf"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -13482,7 +13482,7 @@
 			)
 		)
 		(property "Description" "512K x 8 Pseudo-SRAM, 70 ns, TSOP-II-32"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -13501,14 +13501,14 @@
 		(sheetfile "ram_bank.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -4.6 10.4)
-			(end 6.6 10.4)
+			(start -6.6 -10.4)
+			(end 6.6 -10.4)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "75b8d96e-9bbc-4884-bad1-f42495337790")
+			(uuid "021d11fb-cd68-4b3a-9311-bfb3330e60d7")
 		)
 		(fp_line
 			(start -4.6 10.4)
@@ -13521,14 +13521,14 @@
 			(uuid "c2147d48-3f70-49dc-a6ec-074030c6ab58")
 		)
 		(fp_line
-			(start -6.6 -10.4)
-			(end 6.6 -10.4)
+			(start -4.6 10.4)
+			(end 6.6 10.4)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "021d11fb-cd68-4b3a-9311-bfb3330e60d7")
+			(uuid "75b8d96e-9bbc-4884-bad1-f42495337790")
 		)
 		(fp_poly
 			(pts
@@ -13543,14 +13543,14 @@
 			(uuid "cddd1a44-1db4-44c8-a946-8d3d3236ffb8")
 		)
 		(fp_line
-			(start -6.7 10.5)
-			(end 6.7 10.5)
+			(start -6.7 -10.5)
+			(end 6.7 -10.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "0a1a0ed2-b72a-413c-88ce-c61edaa5406f")
+			(uuid "88ae8a0d-d53e-4856-99a5-16d5f021c3fb")
 		)
 		(fp_line
 			(start -6.7 10.5)
@@ -13563,6 +13563,16 @@
 			(uuid "7bee5986-5d2e-45df-8b57-79f068176994")
 		)
 		(fp_line
+			(start -6.7 10.5)
+			(end 6.7 10.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "0a1a0ed2-b72a-413c-88ce-c61edaa5406f")
+		)
+		(fp_line
 			(start 6.7 10.5)
 			(end 6.7 -10.5)
 			(stroke
@@ -13571,46 +13581,6 @@
 			)
 			(layer "B.CrtYd")
 			(uuid "cd6b6bb8-2df3-42e9-9a5d-8f67e94012fd")
-		)
-		(fp_line
-			(start -6.7 -10.5)
-			(end 6.7 -10.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "88ae8a0d-d53e-4856-99a5-16d5f021c3fb")
-		)
-		(fp_line
-			(start -4.05 10.2)
-			(end 5.05 10.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "97f8bda1-e609-4925-b798-442ccb639a12")
-		)
-		(fp_line
-			(start 5.05 10.2)
-			(end 5.05 -10.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "25e40cc7-8ae4-46a4-ab61-5619a231aa4f")
-		)
-		(fp_line
-			(start -5.05 9.2)
-			(end -4.05 10.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "b0ee462f-2dd1-4737-848c-2b2d51defa73")
 		)
 		(fp_line
 			(start -5.05 -10.2)
@@ -13623,6 +13593,26 @@
 			(uuid "1395437d-746b-41f8-9363-a92d8dd06c0e")
 		)
 		(fp_line
+			(start -5.05 9.2)
+			(end -4.05 10.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "b0ee462f-2dd1-4737-848c-2b2d51defa73")
+		)
+		(fp_line
+			(start -4.05 10.2)
+			(end 5.05 10.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "97f8bda1-e609-4925-b798-442ccb639a12")
+		)
+		(fp_line
 			(start 5.05 -10.2)
 			(end -5.05 -10.2)
 			(stroke
@@ -13632,8 +13622,18 @@
 			(layer "B.Fab")
 			(uuid "7e6546db-c366-4469-80c3-aa0658878d65")
 		)
+		(fp_line
+			(start 5.05 10.2)
+			(end 5.05 -10.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "25e40cc7-8ae4-46a4-ab61-5619a231aa4f")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "21d3bb47-6313-4123-9646-20848032683a")
 			(effects
@@ -13645,7 +13645,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -5.6 9.525 270)
+			(at -5.6 9.525)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 61 "/RAM Bank 1/A18")
@@ -13654,7 +13654,7 @@
 			(uuid "22da2503-29f7-4556-9c20-6597c62a5968")
 		)
 		(pad "2" smd rect
-			(at -5.6 8.255 270)
+			(at -5.6 8.255)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 36 "/RAM Bank 1/A16")
@@ -13663,7 +13663,7 @@
 			(uuid "e89a3b8c-0c42-4115-87e2-6031f17a7033")
 		)
 		(pad "3" smd rect
-			(at -5.6 6.985 270)
+			(at -5.6 6.985)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 3 "/RAM Bank 1/A14")
@@ -13672,7 +13672,7 @@
 			(uuid "b6050b4f-de15-4444-baee-7597cc0464bb")
 		)
 		(pad "4" smd rect
-			(at -5.6 5.715 270)
+			(at -5.6 5.715)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 4 "/RAM Bank 1/A12")
@@ -13681,7 +13681,7 @@
 			(uuid "a32ae105-d0f3-45ec-a294-fced5c31de1c")
 		)
 		(pad "5" smd rect
-			(at -5.6 4.445 270)
+			(at -5.6 4.445)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 21 "/RAM Bank 1/A7")
@@ -13690,7 +13690,7 @@
 			(uuid "52eb1b8e-362f-41c2-9ff4-0c9fb5c98e7e")
 		)
 		(pad "6" smd rect
-			(at -5.6 3.175 270)
+			(at -5.6 3.175)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 65 "/RAM Bank 1/A6")
@@ -13699,7 +13699,7 @@
 			(uuid "57ffcafc-6c88-4faa-a595-496f5d5d152e")
 		)
 		(pad "7" smd rect
-			(at -5.6 1.905 270)
+			(at -5.6 1.905)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 51 "/RAM Bank 1/A5")
@@ -13708,7 +13708,7 @@
 			(uuid "12c8263e-02cf-4f91-836f-d0930dcd2bdf")
 		)
 		(pad "8" smd rect
-			(at -5.6 0.625 270)
+			(at -5.6 0.625)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 37 "/RAM Bank 1/A4")
@@ -13717,7 +13717,7 @@
 			(uuid "1d41b547-b031-4f89-9d61-8859785651db")
 		)
 		(pad "9" smd rect
-			(at -5.6 -0.625 270)
+			(at -5.6 -0.625)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 42 "/RAM Bank 1/A3")
@@ -13726,7 +13726,7 @@
 			(uuid "2a44430e-4d6c-4d8d-8a99-03df7f8cc701")
 		)
 		(pad "10" smd rect
-			(at -5.6 -1.905 270)
+			(at -5.6 -1.905)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 57 "/RAM Bank 1/A2")
@@ -13735,7 +13735,7 @@
 			(uuid "c43a09ad-f691-46cb-9aa9-95e56110d608")
 		)
 		(pad "11" smd rect
-			(at -5.6 -3.175 270)
+			(at -5.6 -3.175)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 54 "/RAM Bank 1/A1")
@@ -13744,7 +13744,7 @@
 			(uuid "3bcc7d45-19ee-4604-bb6d-51fe61cc89fd")
 		)
 		(pad "12" smd rect
-			(at -5.6 -4.445 270)
+			(at -5.6 -4.445)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 52 "/RAM Bank 1/A0")
@@ -13753,7 +13753,7 @@
 			(uuid "c8d34a7f-7135-4021-901c-c01167770e2f")
 		)
 		(pad "13" smd rect
-			(at -5.6 -5.715 270)
+			(at -5.6 -5.715)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 9 "/RAM Bank 1/D24")
@@ -13762,7 +13762,7 @@
 			(uuid "d3b12cef-d9c2-4586-9104-1f4ea50c758a")
 		)
 		(pad "14" smd rect
-			(at -5.6 -6.985 270)
+			(at -5.6 -6.985)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 48 "/RAM Bank 1/D25")
@@ -13771,7 +13771,7 @@
 			(uuid "c7fe81e5-74bf-4ae6-bce3-b2d54d1bfbb8")
 		)
 		(pad "15" smd rect
-			(at -5.6 -8.255 270)
+			(at -5.6 -8.255)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 30 "/RAM Bank 1/D26")
@@ -13780,7 +13780,7 @@
 			(uuid "c64bddf3-d96c-4d3d-9756-9534566a0362")
 		)
 		(pad "16" smd rect
-			(at -5.6 -9.525 270)
+			(at -5.6 -9.525)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 1 "GND")
@@ -13789,7 +13789,7 @@
 			(uuid "b237e17c-d36c-488e-b341-9a3993ed3bd9")
 		)
 		(pad "17" smd rect
-			(at 5.6 -9.525 270)
+			(at 5.6 -9.525)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 19 "/RAM Bank 1/D27")
@@ -13798,7 +13798,7 @@
 			(uuid "9171405e-0de9-417e-8496-940c4ea2d47f")
 		)
 		(pad "18" smd rect
-			(at 5.6 -8.255 270)
+			(at 5.6 -8.255)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 18 "/RAM Bank 1/D28")
@@ -13807,7 +13807,7 @@
 			(uuid "df2c69f3-f206-4375-b6f9-e26e7dc5f062")
 		)
 		(pad "19" smd rect
-			(at 5.6 -6.985 270)
+			(at 5.6 -6.985)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 35 "/RAM Bank 1/D29")
@@ -13816,7 +13816,7 @@
 			(uuid "62cf5e5e-f550-44e3-a3e9-03fc78ffa5c2")
 		)
 		(pad "20" smd rect
-			(at 5.6 -5.715 270)
+			(at 5.6 -5.715)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 31 "/RAM Bank 1/D30")
@@ -13825,7 +13825,7 @@
 			(uuid "c1015f50-2f56-4c57-abf8-34b920c84a35")
 		)
 		(pad "21" smd rect
-			(at 5.6 -4.445 270)
+			(at 5.6 -4.445)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 27 "/RAM Bank 1/D31")
@@ -13834,7 +13834,7 @@
 			(uuid "15cb8af4-28ea-40ae-a95b-d9df5aa24981")
 		)
 		(pad "22" smd rect
-			(at 5.6 -3.175 270)
+			(at 5.6 -3.175)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 8 "~{CS5}")
@@ -13843,7 +13843,7 @@
 			(uuid "eeb1d9f0-042d-42cf-81ce-ad0efadcb5da")
 		)
 		(pad "23" smd rect
-			(at 5.6 -1.905 270)
+			(at 5.6 -1.905)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 38 "/RAM Bank 1/A10")
@@ -13852,7 +13852,7 @@
 			(uuid "87d476da-915b-43fa-aad4-e5da6ff5c737")
 		)
 		(pad "24" smd rect
-			(at 5.6 -0.625 270)
+			(at 5.6 -0.625)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 25 "~{OE}")
@@ -13861,7 +13861,7 @@
 			(uuid "429f6c0b-d2b7-4b8f-a9c8-55ce7c7ca146")
 		)
 		(pad "25" smd rect
-			(at 5.6 0.625 270)
+			(at 5.6 0.625)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 58 "/RAM Bank 1/A11")
@@ -13870,7 +13870,7 @@
 			(uuid "080cca02-5b29-4fed-bcc5-f4869b21f8d9")
 		)
 		(pad "26" smd rect
-			(at 5.6 1.905 270)
+			(at 5.6 1.905)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 24 "/RAM Bank 1/A9")
@@ -13879,7 +13879,7 @@
 			(uuid "b6454856-60d9-4369-81e1-bbd497eec357")
 		)
 		(pad "27" smd rect
-			(at 5.6 3.175 270)
+			(at 5.6 3.175)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 62 "/RAM Bank 1/A8")
@@ -13888,7 +13888,7 @@
 			(uuid "d741771a-d431-4216-a936-9ccd6b178b77")
 		)
 		(pad "28" smd rect
-			(at 5.6 4.445 270)
+			(at 5.6 4.445)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 11 "/RAM Bank 1/A13")
@@ -13897,7 +13897,7 @@
 			(uuid "9bb05937-e669-4648-97f6-bd76a2159edb")
 		)
 		(pad "29" smd rect
-			(at 5.6 5.715 270)
+			(at 5.6 5.715)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 22 "/~{WE3}")
@@ -13906,7 +13906,7 @@
 			(uuid "6d0dfc0f-0ce6-43cd-8113-6704ca63c539")
 		)
 		(pad "30" smd rect
-			(at 5.6 6.985 270)
+			(at 5.6 6.985)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 44 "/RAM Bank 1/A17")
@@ -13915,7 +13915,7 @@
 			(uuid "5a5f4642-8b4e-4bdc-8d79-342710ae7c19")
 		)
 		(pad "31" smd rect
-			(at 5.6 8.255 270)
+			(at 5.6 8.255)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 15 "/RAM Bank 1/A15")
@@ -13924,7 +13924,7 @@
 			(uuid "2028490e-ccdc-487e-9c32-c893b163735d")
 		)
 		(pad "32" smd rect
-			(at 5.6 9.525 270)
+			(at 5.6 9.525)
 			(size 1.6 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 2 "+5V")
