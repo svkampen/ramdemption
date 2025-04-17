@@ -4892,7 +4892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RAMdemption:TE_5-104652-7"
+		(property "Footprint" "RAMdemption:TE_5-104652-7_NoHoles"
 			(at 48.26 95.25 0)
 			(effects
 				(font
