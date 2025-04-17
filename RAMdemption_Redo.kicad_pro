@@ -527,22 +527,38 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.125,
         "via_diameter": 0.5,
         "via_drill": 0.25,
         "wire_width": 6
       },
       {
         "clearance": 0.125,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Address Bus",
+        "name": "Address",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.5,
+        "via_drill": 0.25
+      },
+      {
+        "clearance": 0.125,
+        "name": "Data",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.5,
+        "via_drill": 0.25
+      },
+      {
+        "clearance": 0.125,
+        "name": "Misc",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.125,
         "via_diameter": 0.5,
         "via_drill": 0.25
       },
@@ -550,7 +566,7 @@
         "clearance": 0.3,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
         "via_diameter": 0.6,
@@ -568,8 +584,12 @@
         "pattern": "(GND|\\+5V)"
       },
       {
-        "netclass": "Address Bus",
-        "pattern": ".*A[0-9]*"
+        "netclass": "Address",
+        "pattern": "/.+/A[0-9]+"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "/.+/D[0-9]+"
       }
     ]
   },
