@@ -4901,7 +4901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://powerbook.micahgartman.com/dev/dn_160_180.pdf"
+		(property "Datasheet" "https://www.te.com/usa-en/product-5-104652-7.datasheet.pdf"
 			(at 52.07 95.25 0)
 			(effects
 				(font
@@ -4910,7 +4910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Macintosh PowerBook 160/180/165c RAM Expansion Connector"
+		(property "Description" "PCB Mount Receptacle, Vertical, Board-to-Board, 70 Position, 1.27mm [.05 in]"
 			(at 52.07 95.25 0)
 			(effects
 				(font
