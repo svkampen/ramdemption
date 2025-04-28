@@ -144,9 +144,9 @@
       },
       "teardrop_options": [
         {
-          "td_onpthpad": true,
+          "td_onpthpad": false,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
+          "td_onsmdpad": false,
           "td_ontrackend": false,
           "td_onvia": true
         }
@@ -520,7 +520,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.125,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -537,7 +537,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.125,
+        "clearance": 0.15,
         "name": "Address",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
@@ -547,7 +547,7 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.125,
+        "clearance": 0.15,
         "name": "Data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -557,7 +557,7 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.125,
+        "clearance": 0.15,
         "name": "Misc",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,

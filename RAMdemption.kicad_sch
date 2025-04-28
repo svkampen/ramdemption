@@ -5295,7 +5295,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ram_bank.kicad_sch"
+		(property "Sheetfile" "ram_bank_1.kicad_sch"
 			(at 99.06 46.3046 0)
 			(effects
 				(font
@@ -5417,7 +5417,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ram_bank.kicad_sch"
+		(property "Sheetfile" "ram_bank_4.kicad_sch"
 			(at 99.06 122.5046 0)
 			(effects
 				(font
@@ -5539,7 +5539,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ram_bank.kicad_sch"
+		(property "Sheetfile" "ram_bank_2.kicad_sch"
 			(at 99.06 71.7046 0)
 			(effects
 				(font
@@ -5661,7 +5661,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ram_bank.kicad_sch"
+		(property "Sheetfile" "ram_bank_5.kicad_sch"
 			(at 99.06 147.9046 0)
 			(effects
 				(font
@@ -5783,7 +5783,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ram_bank.kicad_sch"
+		(property "Sheetfile" "ram_bank_3.kicad_sch"
 			(at 99.06 97.1046 0)
 			(effects
 				(font
