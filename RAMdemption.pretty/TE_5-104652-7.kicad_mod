@@ -680,4 +680,15 @@
 		(uuid "a1bd3d29-282c-49c1-907d-23f365ebf04a")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/RAMdemption.pretty/5-104652-7.STEP"
+		(offset
+			(xyz 0 0 4.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
 )
